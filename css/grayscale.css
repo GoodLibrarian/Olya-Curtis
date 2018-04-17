@@ -290,3 +290,23 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+img {
+	    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+img.grey {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: all 0.7s ease;
+	transition: all 0.7s ease;
+}
+
